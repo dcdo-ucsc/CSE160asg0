@@ -57,8 +57,8 @@ function handleDrawEvent(){
             v3 = v1.sub(v2);
             break;
         case 'mult':
-            v3 = v1.mult(s);
-            v4 = v2.mult(s);
+            v3 = v1.mul(s);
+            v4 = v2.mul(s);
             break;
         case 'div':
             v3 = v1.div(s);
